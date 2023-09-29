@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: template.openshift.io/v1
 data:
   krakend.json: "{\n  \"version\": 2,\n  \"port\": 8080,\n  \"extra_config\": {\n
     \     \"github_com/devopsfaith/krakend-cors\": {\n          \"allow_origins\":
